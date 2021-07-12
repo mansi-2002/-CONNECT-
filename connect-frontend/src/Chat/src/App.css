@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #61b0ed;
+}
+
+.home {
+
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+
+.image {
+  width : 180px;
+  height : 150px;
+}
+
+.forms {
+ padding : 2px;
+ padding-left: 10px;
+ position: fixed;
+ bottom : 0px;
+ background-color:#ffffff;
+ z-index: 1;
+ display: flex;
+ width: 100%;
+ margin-bottom : 0px;
+}
+
+.app_formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_formControl_input {
+  flex: 1;
+}
+
+.app_formControl_iconButton {
+  flex: 0;
+}
+
+.app_input {
+  flex : 1;
+}
+
+
+
